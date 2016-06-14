@@ -1,0 +1,67 @@
+<!DOCTYPE>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>div+css实现上中下三栏中部自适应大小始终全屏</title>
+<STYLE type="text/css">
+*{margin:0;padding:0;}
+.header {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: #C9F;  
+  text-align: center;
+  background: #FFCC00;
+}
+.content {
+  position:absolute;
+  top:50px;
+  bottom:40px;
+  width:100%;
+  height: auto;
+}
+.sidebar {
+  float: left;
+  height: 100%;
+  width: 200px;
+  background: red;
+}
+.main {
+  height:100%;
+  margin-left: 200px;
+  background:#66CCFF;
+  text-align:center;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  line-height:40px;
+  background: #FF6600;
+  text-align: center;
+}
+</STYLE>
+</head>
+
+<body>
+<!-- 代码 开始 -->
+<div class="header">
+    <br />这里是顶部
+</div>
+<div class="content">
+    <div class="sidebar">
+        边栏
+    </div>
+    <div class="main">
+        <br /><br />网页header和footer高度是固定的，中间的content高度自适应浏览器窗口高度代码，随着窗口的大小变动都是满屏的。
+  </div>
+</div>
+<div class="footer">
+    这里是底部
+</div>
+<!-- 代码 结束 -->
+</body>
+</html>
