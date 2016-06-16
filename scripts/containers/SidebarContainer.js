@@ -13,6 +13,7 @@ export default class SidebarContainer extends React.Component {
                     <li><Link to="/dashboard">控制台</Link></li>
                     <li><Link to="/message">消息中心</Link></li>
                     <li><Link to="/help">帮助</Link></li>
+                    <li><Link to="/list">列表</Link></li>
                 </ul>
             </div>
         )

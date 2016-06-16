@@ -7,6 +7,7 @@ import App from '../containers/App.js'
 import Dashboard from './Dashboard.js'
 import Message from './Message.js'
 import Help from './Help.js'
+import List from './List.js'
 
 render(
 	<Router history={browserHistory}>
@@ -14,6 +15,7 @@ render(
 			<Route path="/dashboard" component={Dashboard} />
 			<Route path="/message" component={Message} />
 			<Route path="/help" component={Help} />
+            <Route path="/list" component={List} />
 		</Route>
 	</Router>,
 	document.getElementById('app')

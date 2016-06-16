@@ -10,7 +10,7 @@ module.exports = {
 		'webpack/hot/dev-server',
     	'webpack-dev-server/client?http://localhost:8080',
     	APP_PATH
-	],	
+	],
 	output: {
 		path: BUILD_PATH,
 		filename: 'bundle.js'
