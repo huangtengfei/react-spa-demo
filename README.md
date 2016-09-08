@@ -40,3 +40,15 @@ npm run dev
 }
 ```
 
+## 系列文章
+
+1. [使用 Webpack 和 ES6 进行 React 开发][1]
+2. [React 入门][2]
+3. [Redux 入门][3]
+4. [Redux 进阶][4]
+
+
+  [1]: https://github.com/huangtengfei/blog/issues/17
+  [2]: https://github.com/huangtengfei/react-demo
+  [3]: https://github.com/huangtengfei/redux-demo
+  [4]: https://github.com/huangtengfei/redux-async-demo
